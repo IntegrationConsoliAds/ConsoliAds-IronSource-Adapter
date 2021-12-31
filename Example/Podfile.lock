@@ -1,0 +1,27 @@
+PODS:
+  - ConsoliAds-IronSource-Adapter (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ConsoliAds-IronSource-Adapter (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ConsoliAds-IronSource-Adapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConsoliAds-IronSource-Adapter: c8adba38adfe52c58979f13a9b69c96f7375da3f
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 24c2d103a3b71c77187187db96a117cfc8b62402
+
+COCOAPODS: 1.11.2
