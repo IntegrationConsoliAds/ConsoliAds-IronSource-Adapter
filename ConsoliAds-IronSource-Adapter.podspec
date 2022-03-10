@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-IronSource-Adapter'
-  s.version          = '7.1.11.0-1.1'
+  s.version          = '7.1.11.0-1.2'
   s.summary          = 'This pod is used to get ironsource adapter for ironsourceAd serving after integrating Consoliads-Mediation pod.'
 
 # This description is used to generate tags and improve search results.
