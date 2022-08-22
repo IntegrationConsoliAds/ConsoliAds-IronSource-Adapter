@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,13 +30,13 @@
 		A9EA22A8A98425FD1248B08FEE0BC64A /* ConsoliAds-IronSource-Adapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C89CE031EDCDCD6AB01FA1134417F6E /* ConsoliAds-IronSource-Adapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		B5FB2136C1CABD04296FF0E046A564FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		BA81E674277F31EF006DD201 /* ConsoliAdsIronSourceAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA81E673277F31EE006DD201 /* ConsoliAdsIronSourceAdapter.framework */; };
 		BE2CDA6FEC76A8E1B21BC693B7F6E268 /* Pods-ConsoliAds-IronSource-Adapter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE04BEB292F9FB66C83B4B028547842 /* Pods-ConsoliAds-IronSource-Adapter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		D2448C89770BFBDDC90ED8127E56A809 /* ConsoliAds-IronSource-Adapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A86E4510BBC69DEE658738545BDB980F /* ConsoliAds-IronSource-Adapter-dummy.m */; };
 		E4C86ECEE66DCC9DE665700A61937782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		FC2D4F8A28B35C9E001A7E6A /* ConsoliAdsIronSourceAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2D4F8928B35C9E001A7E6A /* ConsoliAdsIronSourceAdapter.xcframework */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -111,7 +111,6 @@
 		A9DCFBE989F30E62CE8F0C13F16440BF /* Pods-ConsoliAds-IronSource-Adapter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConsoliAds-IronSource-Adapter_Example.modulemap"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		BA81E673277F31EE006DD201 /* ConsoliAdsIronSourceAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConsoliAdsIronSourceAdapter.framework; path = "ConsoliAds-IronSource-Adapter/ConsoliAdsIronSourceAdapter.framework"; sourceTree = "<group>"; };
 		BF041D3EB9223B599F2ED958A0D2428B /* Pods-ConsoliAds-IronSource-Adapter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsoliAds-IronSource-Adapter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C7DCE5BB365E7929A063B9E845778B1F /* Pods-ConsoliAds-IronSource-Adapter_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ConsoliAds-IronSource-Adapter_Example"; path = Pods_ConsoliAds_IronSource_Adapter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -124,6 +123,7 @@
 		ED881F7AB3451BB865A3AE31BD94146D /* Pods-ConsoliAds-IronSource-Adapter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsoliAds-IronSource-Adapter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EF537EFB607CE6B3371130054FD646CA /* ConsoliAds-IronSource-Adapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "ConsoliAds-IronSource-Adapter.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F11C0F4FD06F0E94F8407B3B4DBEEB4C /* Pods-ConsoliAds-IronSource-Adapter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsoliAds-IronSource-Adapter_Tests-Info.plist"; sourceTree = "<group>"; };
+		FC2D4F8928B35C9E001A7E6A /* ConsoliAdsIronSourceAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ConsoliAdsIronSourceAdapter.xcframework; path = "ConsoliAds-IronSource-Adapter/ConsoliAdsIronSourceAdapter.xcframework"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,8 +132,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA81E674277F31EF006DD201 /* ConsoliAdsIronSourceAdapter.framework in Frameworks */,
 				E4C86ECEE66DCC9DE665700A61937782 /* Foundation.framework in Frameworks */,
+				FC2D4F8A28B35C9E001A7E6A /* ConsoliAdsIronSourceAdapter.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +180,7 @@
 		31525BD626CA53716485D08352AA0DCE /* ConsoliAds-IronSource-Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				BA81E673277F31EE006DD201 /* ConsoliAdsIronSourceAdapter.framework */,
+				FC2D4F8928B35C9E001A7E6A /* ConsoliAdsIronSourceAdapter.xcframework */,
 				2EF05119C4D2444B1E9CF71F3561F7CF /* Pod */,
 				C280321D986C30273A1886669EC5317E /* Support Files */,
 			);
@@ -621,7 +621,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-IronSource-Adapter/ConsoliAds-IronSource-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-IronSource-Adapter/ConsoliAds-IronSource-Adapter.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_IronSource_Adapter;
 				PRODUCT_NAME = ConsoliAds_IronSource_Adapter;
@@ -652,7 +656,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -725,6 +733,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -749,7 +758,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-IronSource-Adapter_Example/Pods-ConsoliAds-IronSource-Adapter_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-IronSource-Adapter_Example/Pods-ConsoliAds-IronSource-Adapter_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -783,7 +796,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-IronSource-Adapter/ConsoliAds-IronSource-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-IronSource-Adapter/ConsoliAds-IronSource-Adapter.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_IronSource_Adapter;
 				PRODUCT_NAME = ConsoliAds_IronSource_Adapter;
@@ -813,7 +830,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-IronSource-Adapter_Example/Pods-ConsoliAds-IronSource-Adapter_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-IronSource-Adapter_Example/Pods-ConsoliAds-IronSource-Adapter_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -845,7 +866,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -875,7 +900,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-IronSource-Adapter_Tests/Pods-ConsoliAds-IronSource-Adapter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-IronSource-Adapter_Tests/Pods-ConsoliAds-IronSource-Adapter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -907,7 +936,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-IronSource-Adapter_Tests/Pods-ConsoliAds-IronSource-Adapter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-IronSource-Adapter_Tests/Pods-ConsoliAds-IronSource-Adapter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -978,8 +1011,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-IronSource-Adapter'
-  s.version          = '7.1.11.0-1.2'
+  s.version          = '7.1.11.0-1.3'
   s.summary          = 'This pod is used to get ironsource adapter for ironsourceAd serving after integrating Consoliads-Mediation pod.'
 
 # This description is used to generate tags and improve search results.
@@ -28,11 +28,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-s.vendored_frameworks = 'ConsoliAds-IronSource-Adapter/ConsoliAdsIronSourceAdapter.framework'
+s.vendored_frameworks = 'ConsoliAds-IronSource-Adapter/ConsoliAdsIronSourceAdapter.xcframework'
 s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC"}
 
-s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+s.user_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES', "MACH_O_TYPE" => "staticlib"}
+s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES', "MACH_O_TYPE" => "staticlib"}
 s.static_framework = true
 
 end
